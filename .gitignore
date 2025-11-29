@@ -1,0 +1,52 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# VSCode / IDE stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# ---- Project-specific ----
+
+# Data outputs from scraper
+data/latest_listings.json
+data/seen_ids.json
+data/*.log
+
+# Any temp or scratch data files
+data/tmp/
+tmp/
+logs/
+
+# Local config / secrets (if you add them later)
+.env
+.env.local
+.env.*
+*.secret
+secrets/
